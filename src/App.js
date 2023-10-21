@@ -7,7 +7,7 @@ import Home from './pages/home/Home';
 import Chat from './pages/chat/Chat';
 
 
-const socket = io.connect('http://13.51.238.123:4000/');
+const socket = io.connect('http://13.51.238.123:4000');
 
 function App() {
   const [username, setUsername] = useState('');
